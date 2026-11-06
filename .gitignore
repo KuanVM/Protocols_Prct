@@ -1,0 +1,32 @@
+# Published: root docs and finished modules. Everything else in this folder stays local.
+/*
+!/.gitignore
+!/README.md
+!/ARCHITECTURE.md
+!/00_uvm_fifo/
+
+# Simulator output
+work/
+work_*/
+out/
+covhtmlreport/
+transcript
+*.wlf
+wlft*
+*.vcd
+*.ucdb
+modelsim.ini
+*.log
+tcl_stacktrace.txt
+
+# Local scratch files in tb/
+00_uvm_fifo/tb/run.sh
+00_uvm_fifo/tb/configure
+00_uvm_fifo/tb/*configure
+
+# Keep the published sample log
+!00_uvm_fifo/doc/results/*.txt
+
+# Python
+__pycache__/
+*.pyc
